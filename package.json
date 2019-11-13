@@ -1,0 +1,17 @@
+{
+  "name": "mcjson",
+  "version": "1.0.0",
+  "description": "Converts valid JSON files to MCfunction files for minecraft",
+  "keywords": ["minecraft", "json", "converter"],
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/run.js"
+  },
+  "bin": {
+    "mcjson": "./bin/run.js"
+  },
+  "author": "unnamedDE <admin@unnamedDE.tk> (https://unnamedde.tk/)",
+  "license": "MIT",
+  "homepage": "https://unnamedDE.tk/",
+  "repository": "github:unnamedDE/mcjson"
+}
