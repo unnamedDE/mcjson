@@ -1,6 +1,6 @@
 {
   "name": "mcjson",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Converts valid JSON files to MCfunction files for minecraft",
   "keywords": ["minecraft", "json", "converter"],
   "main": "index.js",
