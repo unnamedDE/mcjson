@@ -1,3 +1,5 @@
-const generate = require('./lib/index.js').generate;
+const {generate} = require('./lib/index.js');
 
-module.exports = generate;
+module.exports = {
+  generate: generate
+};
