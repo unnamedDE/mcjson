@@ -1,3 +1,3 @@
-const jsonToMcfunction = require('./lib/index.js').generateMcfunction;
+const generate = require('./lib/index.js').generate;
 
-module.exports = jsonToMcfunction;
+module.exports = generate;

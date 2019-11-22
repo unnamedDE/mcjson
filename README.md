@@ -12,7 +12,7 @@ Every json file has to be an array with at least one object. This object is call
 Every node has at least two properties:
 
 - type : the type of the node (command, as, positioned, if) (string / required)
-- args : arguments for the node (string / array of strings)
+- args : arguments for the node (string / array of strings or objects)
 - nodes : child nodes (string / object (node) / array of strings or objects (nodes))
 
 If a node is just a string it is interpreted as a command node.
